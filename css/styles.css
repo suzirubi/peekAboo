@@ -1,5 +1,18 @@
-img {
+#initially-hidden {
   display: none;
+}
+#initially-hidden img {
   width: 400px;
-  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#initially-showing img {
+  width: 400px;
+  padding-bottom: 10px;
+}
+.clickable {
+  cursor: pointer;
+  color: blue;
+}
+.clickable:hover {
+  text-decoration: underline;
 }
